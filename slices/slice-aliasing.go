@@ -46,7 +46,7 @@ func modifySlice(s []int) {
     fmt.Println("Inside :", s) // [99 2 3]
 }
 
-// Case 4: Aliasing inside a loop (common trap)
+// Case 4: Aliasing inside a loop (common trap) 1
 func sliceInsideLoop() {
     fmt.Println("liceInsideLoop")
     s := make([][]int, 3)
